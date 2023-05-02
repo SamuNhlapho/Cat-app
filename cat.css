@@ -1,0 +1,51 @@
+body {background-color: #faf3dd;
+    color:#000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cat {background-color:#7E7F9A;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid;
+    flex:1;
+}
+.photo {background-color:#7E7F9A;
+    text-align: center;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid;
+    flex:1;}
+.Lists{background-color:#7E7F9A;
+    text-align: center;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid;
+    flex:1;
+}
+.form {background-color:#7E7F9A;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid;
+    flex:1;}
+
+    @media (min-width: 960px)
+
+.cats {display: flex;}
+
+fieldset{ 
+    margin: 1em;
+    border: 0;
+}
+
+button { 
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 1em;
+}
+input { 
+    padding: 1em;
+    border: 2px solid;
+}
