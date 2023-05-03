@@ -15,7 +15,8 @@ body {background-color: #faf3dd;
     padding: 1em;
     border-radius: 1em;
     border: 3px solid;
-    flex:1;}
+    flex:1;
+}
 .Lists{background-color:#7E7F9A;
     text-align: center;
     margin: 0.5em;
@@ -29,11 +30,14 @@ body {background-color: #faf3dd;
     padding: 1em;
     border-radius: 1em;
     border: 3px solid;
-    flex:1;}
+    flex:1
+}
 
-    @media (min-width: 960px)
 
-.cats {display: flex;}
+@media (min-width : 960px) {
+
+    .cats {display: flex;}
+}
 
 fieldset{ 
     margin: 1em;
